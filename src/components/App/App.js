@@ -1,18 +1,23 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
-
+import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import Header from '../Header/Header';
 import Nav from '../Nav/Nav';
 import Meet from '../Meet/Meet';
 import Involve from '../Involve/Involve';
 import Media from  '../Media/Media';
 import Book from '../Book/Book';
-import '../../styles/App.css';
+import '../../styles/App.scss';
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 
 function App() {
 
   return (
+
+    <PrimeReactProvider>
     <Router>
     <div className="App">
       <Header />
@@ -28,7 +33,7 @@ function App() {
       </Routes>
    
     </div>
-    </Router>);
+    </Router> </PrimeReactProvider>);
 }
 
 export default App;

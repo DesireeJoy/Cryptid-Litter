@@ -1,7 +1,9 @@
 function Media() {
     return (
 <section id="media">
-                <h2>Media</h2>
+<h2 className="text-3xl font-bold underline">
+    Social Media Links and Contact Information
+    </h2>
                 <ul>
                     <li><a href="https://www.instagram.com/thecryptidlitter/">Instagram</a></li>
                     <li><a href="https://www.facebook.com/thecryptidlitter/">Facebook</a></li>

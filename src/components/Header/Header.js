@@ -1,5 +1,5 @@
 
-import '../../styles/Header.css';
+import '../../styles/Header.scss';
 import heroImage from '../../images/HeroCryptids.png'
 function Header() {
     return (
