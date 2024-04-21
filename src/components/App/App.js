@@ -1,6 +1,7 @@
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import Header from '../Header/Header';
 import Nav from '../Nav/Nav';
@@ -18,7 +19,7 @@ function App() {
   return (
 
     <PrimeReactProvider>
-    <Router>
+       <HashRouter>
     <div className="App">
       <div className='header-container'>
       <Header />
@@ -34,7 +35,7 @@ function App() {
       </Routes>
       </div>
     </div>
-    </Router> </PrimeReactProvider>);
+    </HashRouter> </PrimeReactProvider>);
 }
 
 export default App;

@@ -62,7 +62,7 @@ text-decoration: none;
 }
 
 .tab:nth-child(2n) {
-    background-color: cornflowerblue;
+    background-color: #1c6c8c;
     color: white;
 }
 
@@ -74,4 +74,12 @@ text-decoration: none;
     display: none;
     padding: 15px;
     border-top: none;
+}
+.p-button{
+    background-color: #996633;
+    border:none;
+
+}
+.p-button:nth-child(2n){
+    background-color: #1c6c8c;
 }
