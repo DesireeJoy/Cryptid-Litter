@@ -20,6 +20,7 @@ function App() {
     <PrimeReactProvider>
     <Router>
     <div className="App">
+      <div className='header-container'>
       <Header />
       <Nav />
    
@@ -31,7 +32,7 @@ function App() {
           <Route path="*" element={<Navigate to="/book" replace />} />
       
       </Routes>
-   
+      </div>
     </div>
     </Router> </PrimeReactProvider>);
 }

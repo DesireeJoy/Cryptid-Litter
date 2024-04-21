@@ -1,12 +1,15 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 import '../../styles/Nav.scss';
+
 function Nav() {
+
+ 
     return (
-    <nav class="nav">
-    <div class="tabs">
-    <NavLink className="tab" to="/meet">
+    <nav className="nav" >
+    <div className="tabs">
+    <NavLink className="tab" to="/meet" >
                     <div className="tab__title">Hello!</div>
                     <div className="tab__subtitle">Meet the Cryptids</div>
                 </NavLink>

@@ -1,7 +1,11 @@
 @import 'primeicons/primeicons.css';
 @import 'primeflex/primeflex.scss';
 
-
+.header-container {
+  position: relative;
+  height: 100vh;
+  margin:0;
+}
 .mybutton {
     .bg-blue-500 {
         background-color: #4299e1;

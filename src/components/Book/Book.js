@@ -1,6 +1,15 @@
+import React, { useEffect, useRef } from 'react';
 function Book() {
+    const bookRef = useRef(null);
+
+  
+    React.useEffect(() => {
+        if (bookRef.current) {
+            bookRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+      }, []);
     return (
-        <section id="book">
+        <section id="book" ref={bookRef}>
         <h2>Upcoming Book Release</h2>
         <ul>
             <li>October 31 - Halloween Bash at the Haunted House</li>

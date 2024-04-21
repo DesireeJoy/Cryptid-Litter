@@ -1,9 +1,24 @@
 .hero {
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    z-index: 1;
+    height: 100vh;
+    width: 100%; // This will make the image take the full width of its container
+    object-fit: cover; // This will scale the image to cover the element, preserving its aspect ratio
+    object-position: center; // This will center the image within the element
+    overflow:hidden;
 }
-
+.hero__image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
 .hero__title{
     font-size: 5em;
     color: cornflowerblue;
@@ -11,6 +26,8 @@
     margin: 0;
     padding: 0;
     padding: 10px;
+    bottom: 0;
+    left: 0;
 
 }
 .hero__title-box{

@@ -1,36 +1,57 @@
-.tabs{
+.nav {
 
-    width: 100vw;
-    display:flex;
-    align-content: stretch;
-    justify-content: space-around;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
 }
+
+.tabs {
+
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+    height:120px;
+}
+
 .tab {
     cursor: pointer;
-    height: 120px;
+    width: 25vw;
+    height: 100px;
     padding: 10px 15px;
     transition: 0.3s;
     margin: 0;
     color: white;
     background-color: #996633;
-    display:flex;
-    flex-grow: 1;
+    display: flex;
+text-decoration: none;
     box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
     border-top: 1px solid #000000;
     border-bottom: 1px dashed #000000;
     border-left: 0;
-    border-right:1px solid grey;
+    border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    border-radius: 0 0 2rem 2rem;
 
 }
-.tab__subtitle{
+
+.tab__subtitle {
     text-align: left;
     font-size: 1.5rem;
     font-weight: lighter;
 }
-.tab__title{
+
+.tab__title {
     font-weight: 600;
     margin-bottom: 2px;
     font-size: 2rem;
@@ -40,10 +61,11 @@
     border-left: 1px solid #000000;
 }
 
-.tab:nth-child(2n){
-   background-color: cornflowerblue;
-   color:white;
+.tab:nth-child(2n) {
+    background-color: cornflowerblue;
+    color: white;
 }
+
 .tab:hover {
     background-color: #ddd;
 }
