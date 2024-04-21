@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cryptid-Litter/static/css/main.f11edcb6.css",
-    "main.js": "/Cryptid-Litter/static/js/main.e83a3833.js",
+    "main.css": "/Cryptid-Litter/static/css/main.2c7a3e66.css",
+    "main.js": "/Cryptid-Litter/static/js/main.cf01aaaa.js",
     "static/js/453.60781184.chunk.js": "/Cryptid-Litter/static/js/453.60781184.chunk.js",
     "static/media/HeroCryptids.png": "/Cryptid-Litter/static/media/HeroCryptids.02d51540daa605251cd5.png",
     "static/media/Yeti.png": "/Cryptid-Litter/static/media/Yeti.1b42edaafc8b61571162.png",
@@ -18,12 +18,12 @@
     "static/media/primeicons.ttf": "/Cryptid-Litter/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/primeicons.woff2": "/Cryptid-Litter/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/Cryptid-Litter/index.html",
-    "main.f11edcb6.css.map": "/Cryptid-Litter/static/css/main.f11edcb6.css.map",
-    "main.e83a3833.js.map": "/Cryptid-Litter/static/js/main.e83a3833.js.map",
+    "main.2c7a3e66.css.map": "/Cryptid-Litter/static/css/main.2c7a3e66.css.map",
+    "main.cf01aaaa.js.map": "/Cryptid-Litter/static/js/main.cf01aaaa.js.map",
     "453.60781184.chunk.js.map": "/Cryptid-Litter/static/js/453.60781184.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f11edcb6.css",
-    "static/js/main.e83a3833.js"
+    "static/css/main.2c7a3e66.css",
+    "static/js/main.cf01aaaa.js"
   ]
 }
