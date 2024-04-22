@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/Cryptid-Litter/static/css/main.52d6b869.css",
-    "main.js": "/Cryptid-Litter/static/js/main.9b0e99c6.js",
+    "main.css": "/Cryptid-Litter/static/css/main.84af2318.css",
+    "main.js": "/Cryptid-Litter/static/js/main.32c99958.js",
     "static/js/453.60781184.chunk.js": "/Cryptid-Litter/static/js/453.60781184.chunk.js",
     "static/media/HeroCryptids.png": "/Cryptid-Litter/static/media/HeroCryptids.02d51540daa605251cd5.png",
     "static/media/Yeti.png": "/Cryptid-Litter/static/media/Yeti.1b42edaafc8b61571162.png",
-    "static/media/GhostGiblet.png": "/Cryptid-Litter/static/media/GhostGiblet.080d0441da2755df39a6.png",
     "static/media/Rou.png": "/Cryptid-Litter/static/media/Rou.f08b17cd8be503aa5c85.png",
     "static/media/Kraken.png": "/Cryptid-Litter/static/media/Kraken.75abac739bf548a92752.png",
     "static/media/Wendi.png": "/Cryptid-Litter/static/media/Wendi.92e195e8d6603f3da7d8.png",
@@ -18,17 +17,18 @@
     "static/media/primeicons.svg": "/Cryptid-Litter/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/Nessie-kids-transparent-walk.png": "/Cryptid-Litter/static/media/Nessie-kids-transparent-walk.160543edf70e0078ba2b.png",
     "static/media/unsplashBook.jpg": "/Cryptid-Litter/static/media/unsplashBook.d3abde6293ce1d71ccb7.jpg",
+    "static/media/GhostGiblet.png": "/Cryptid-Litter/static/media/GhostGiblet.48fca23b74a599f025ea.png",
     "static/media/primeicons.eot": "/Cryptid-Litter/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
     "static/media/primeicons.woff": "/Cryptid-Litter/static/media/primeicons.8931fda1930c3bd21e96.woff",
     "static/media/primeicons.ttf": "/Cryptid-Litter/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/primeicons.woff2": "/Cryptid-Litter/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/Cryptid-Litter/index.html",
-    "main.52d6b869.css.map": "/Cryptid-Litter/static/css/main.52d6b869.css.map",
-    "main.9b0e99c6.js.map": "/Cryptid-Litter/static/js/main.9b0e99c6.js.map",
+    "main.84af2318.css.map": "/Cryptid-Litter/static/css/main.84af2318.css.map",
+    "main.32c99958.js.map": "/Cryptid-Litter/static/js/main.32c99958.js.map",
     "453.60781184.chunk.js.map": "/Cryptid-Litter/static/js/453.60781184.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d6b869.css",
-    "static/js/main.9b0e99c6.js"
+    "static/css/main.84af2318.css",
+    "static/js/main.32c99958.js"
   ]
 }
